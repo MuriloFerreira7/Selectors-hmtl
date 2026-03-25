@@ -1,0 +1,47 @@
+/* Estilização Global */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+/* ID único */
+#topo-principal {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+/* Classe (cards) */
+.card {
+  background-color: white;
+  border-radius: 10px;
+  width: 200px;
+}
+
+/* Seletor descendente */
+p span {
+  font-weight: bold;
+  color: blue;
+}
+
+/* Agrupamento */
+h1, h2 {
+  color: #2c3e50;
+}
+
+/* Classe específica (card destaque) */
+.card.destaque {
+  border: 3px solid gold;
+  transform: scale(1.05);
+}
+
+/* Hover no botão */
+button:hover {
+  background-color: #27ae60;
+  cursor: pointer;
+}
+
+/* nth-child */
+nav ul li:nth-child(2) {
+  text-transform: uppercase;
+}
